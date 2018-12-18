@@ -1,0 +1,22 @@
+  
+/* Global Styles */
+html {font-family: 'Work Sans', sans-serif;
+	background-color:black;
+	color: white;
+	text-align: center;
+	}
+body {font-family: 'Work Sans', sans-serif, cursive;
+    }
+header {
+    text-align: center;
+	color: white;
+	background-color:black;
+	}
+#title {
+    font-size: 5rem;
+	text-align: center;
+	font-family: 'Raleway Dots', cursive;
+	}
+#subtitle {
+	text-align: center;
+}

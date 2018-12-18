@@ -1,16 +1,5 @@
-<html>
-<head>
-  <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
-  <title>IllumiCloud</title>
-  <link href="https://fonts.googleapis.com/css?family=Codystar|Montserrat|Poiret+One|Raleway+Dots|Work+Sans|Source+Code+Pro" rel="stylesheet">
-  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
 
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/skeleton.css">
-  <link rel="stylesheet" href="css/illumicloud.css">
-
-  <script>
-    //illumiCloud constructor
+//illumiCloud constructor
     let illumiCloud = {
         //vars
         name: "illumiCloud",
@@ -286,32 +275,3 @@
         //brightMap.init();
 		//console.log(illumiCloud.lat_y + ',' + illumiCloud.lon_x);
     }
-
-  </script>
-</head>
-
-<body onload="initialize()">
-<div class = "container">
-<div class = "row">
-<header class = "twelve columns">
-	<h1 id="title">illumicloud</h1>
-	<p id="subtitle">A citizen science app for mapping illuminance.</p>
-</header>
-</div>
-<section id="tiles" class = "row">
-<section class = "four columns" id="lat_blk"><h2 id = "lat">Lat: </h2><h4 id="y"> </h4></section>
-<section class = "four columns" id="lon_blk"><h2 id = "lon">Lon: </h2><h4 id="x"> </h4></section>
-<section class = "four columns" id="lux_blk"><h2 id = "lux">Lux: </h2><h4 id="l"> </h4></section>
-</section>
-<section class = "row">
-<button class = "six columns" id="rec_button" onclick="rec_button()"><span style = "color: white;">record</span></button>
-<button class = "six columns"  id="exp_button" onclick="exp_button()"><span style = "color: gray;">empty</span></button>
-<!--button class = "four columns"  id="clr_button" onclick="clr_button()">waiting</button-->
-</section>
-<section id="content" class = "twelve columns">
-<h2 id = "status">Press record to start.</h2>
-</br></br>
-</section>
-</div>
-</body>
-</html>
